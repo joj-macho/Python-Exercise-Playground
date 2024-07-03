@@ -19,6 +19,11 @@ For a comprehensive tutorial on Python, check out my [Python Programming 101](ht
 - [Python Operators](python_operators.py): Learn about Python operators (arithmetic, comparison, logical, bitwise) and their usage.
 - [Using Comments](using_comments.py): Understand how to use comments and docstrings to document your code.
 
+- [Hello World](hello_world.py): Script to greet the user by printing "Hello, World!". 
+- [Temperature Conversion](convert_temperature.py): Script to convert temperature between degree Celsius and Fahrenheits.
+- [Check if Even or Odd](check_even_odd.py): Script to check if a value is an even number or odd number.
+- [ASCII Characters](ascii_char_of_number.py): Script to show ASCII number and its corresponding text character.
+- [Calculate Geometry of Cuboid Shape](calculate_geometry.py): Script to calculate geometric properties of various shapes.
 
 ## How to Use
 

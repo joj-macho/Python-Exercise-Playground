@@ -5,7 +5,7 @@ This script demonstrates how to check the version of Python that is currently
 installed and being used to run your scripts.
 
 Usage:
-    Call the main function.
+    Call the main function to get the version of Python currently installed.
 
 Tags: Python version, sys module, basic script
 '''

@@ -4,7 +4,7 @@ Exercise: Using Comments
 This script demonstrates using comments and docstrings to document your code.
 
 Usage:
-    Call the main function.
+    Call the main function to see (or not see) comments in action.
 
 Tags: comments, docstrings, code documentation
 '''

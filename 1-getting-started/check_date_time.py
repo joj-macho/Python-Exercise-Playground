@@ -6,7 +6,7 @@ datetime module.
 This is useful for time-stamping outputs and logging events in your scripts.
 
 Usage:
-    Call the main function to script prints the current date and time.
+    Call the main function to print the current date and time.
 
 Tags: datetime module, current date and time, time-stamping, logging events
 '''
