@@ -31,6 +31,25 @@ For a comprehensive tutorial on Python, check out my [Python Programming 101](ht
 - [Print with Arguments](print_with_arguments.py): Use the `print()` function with `sep` and `end` arguments to format output.
 - [Seconds to Time](seconds_to_time.py): Convert seconds into days, hours, minutes, and seconds using arithmetic operators.
 - [Swap Numbers](swap_numbers.py): Swap two numbers using a third variable.
+- [Body Mass Index](body_mass_index.py): Calculate the Body Mass Index (BMI) given weight and height.
+- [Convert Gregorian Date and Ordinal Dates](convert_gregorian_ordinal_dates.py): Convert between Gregorian and ordinal dates.
+- [Height Units Conversion](convert_height.py): Convert height between feet and meters.
+- [Mass Units Conversion](convert_mass.py): Convert mass between pounds and kilograms.
+- [Convert Pressure Units](convert_pressure.py): Convert pressure from Pascals to other units such as bar, atm, torr, and psi.
+- [Converting Decimals to Fractions](decimal_to_fraction.py): Convert decimal numbers to fractions using the `fractions` module.
+- [Distance Between Two Points on Earth](distance_between_2_points_on_earth.py): Calculate the distance between two points on Earth using the haversine formula.
+- [Distance Between Two Points](distance_between_points.py): Calculate the distance between two points in a 2D plane.
+- [Final Price with Discount](final_price_with_discount.py): Calculate the final price of an item after applying a discount.
+- [Fraction Calculator](fraction_calculator.py): Perform basic arithmetic operations on fractions using the `fractions` module.
+- [Free Fall](free_fall_velocity.py): Calculate the final velocity of an object in free fall.
+- [Ideal Gas Law](ideal_gas_law.py): Calculate the amount of gas in moles using the ideal gas law.
+- [Magic Dates](magic_dates.py): Identify dates where the day multiplied by the month equals the year.
+- [Projectile Motion Calculations](projectile_motion.py): Calculate the range and maximum height of a projectile.
+- [Reduce Measures](reduce_measures.py): Express imperial volume using the largest units possible.
+- [Simple and Compound Interest](simple_and_compound_interest.py): Calculate simple and compound interest.
+- [Simple Physics Calculations](simple_physics_calculations.py): Perform basic physics calculations such as force, work, and energy.
+- [Sum of the First n Positive Integers](sum_of_n_integers.py): Calculate the sum of the first n positive integers.
+- [Wind Chill Index](wind_chill_index.py): Calculate the wind chill index given temperature and wind speed.
 
 
 ## How to Use
