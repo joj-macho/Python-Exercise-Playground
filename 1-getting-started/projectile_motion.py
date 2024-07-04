@@ -3,14 +3,13 @@ Exercise: Projectile Motion Calculations
 
 This script calculates the range and maximum height of a projectile.
 
-Calculation formulas:
-- Range: R = (v^2 * sin(2 * theta)) / g
-- Maximum Height: H = (v^2 * sin^2(theta)) / (2 * g)
-
-Where:
-- v is the initial velocity
-- theta is the angle of projection
-- g is the acceleration due to gravity (9.81 m/s^2)
+Formulas:
+    Range: R = (v^2 * sin(2 * theta)) / g
+    Maximum Height: H = (v^2 * sin^2(theta)) / (2 * g)
+where:
+    - v is the initial velocity
+    - theta is the angle of projection
+    - g is the acceleration due to gravity (9.81 m/s^2)
 
 Usage:
     Call the main function and follow the prompts.
@@ -42,7 +41,7 @@ def calculate_projectile_motion(velocity, angle):
     Returns:
         tuple: Tuple of range and maximum height of a projectile.
     '''
-    g = 9.81  # acceleration due to gravity (m/s^2)
+    g = 9.81
 
     angle_rad = math.radians(angle)  # degrees to radians
 

@@ -1,23 +1,25 @@
 '''
 Exercise: Distance Between Two Points on Earth
 
-This script calculates the distance between two points on Earth given their
-latitude and longitude using the formula:
-R = 6371; # in km
-φ1 = lat1 * PI/180 # φ, λ in radians
-φ2 = lat2 * PI/180
-Δφ = (lat2-lat1) * PI/180
-Δλ = (lon2-lon1) * PI/180
+This script calculates the distance between two points on the Earth's
+surface given their latitude and longitude using the Haversine formula.
 
-a = sin(Δφ/2) * sin(Δφ/2) + cos(φ1) * cos(φ2) * sin(Δλ/2) * sin(Δλ/2)
-c = 2 * atan2(sqrt(a), sqrt(1-a))
-d = R * c # in km
+Haversine Formula:
+    d = 2 * R * asin(sqrt(hav(Δlat) + cos(lat1) * cos(lat2) * hav(Δlong)))
+where:
+    - d is the distance between the two points.
+    - R is the Earth's radius (mean radius = 6,371 km).
+    - hav is the haversine function: hav(θ) = sin^2(θ / 2)
+    - Δlat = lat2 - lat1
+    - Δlong = long2 - long1
+    - lat1, long1 are the coordinates of the first point.
+    - lat2, long2 are the coordinates of the second point.
 
 Usage:
     Call the function with the latitude and longitude of two points.
 
-Tags: arithmetic operations, math module, trig functions, latitude, longitude
-degrees, radians
+Tags: arithmetic operations, math module, haversine formula, distance,
+coordinates, earth
 '''
 
 import math

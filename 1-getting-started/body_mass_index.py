@@ -3,12 +3,17 @@ Exercise: Body Mass Index
 
 This script calculates the Body Mass Index (BMI) given the weight and height
 of a person.
-BMI = weight in kg / (height in m)^2
+
+Formula:
+    BMI = weight / height^2
+where:
+    - weight is the weight of the person in kilograms.
+    - height is the height of the person in meters.
 
 Usage:
     Call the function with the weight and height.
 
-Tags: arithmetic operations, bmi
+Tags: arithmetic operations, health, BMI
 '''
 
 

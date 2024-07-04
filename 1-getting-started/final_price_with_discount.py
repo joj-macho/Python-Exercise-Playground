@@ -3,8 +3,8 @@ Exercise: Final Price with Discount
 
 This script calculates the final price of an item after applying a discount.
 
-Calculation formula:
-- final_price = original_price * (1 - discount_rate / 100)
+Formula:
+    final_price = original_price * (1 - discount_rate / 100)
 
 Usage:
     Call the main function and follow the prompts.

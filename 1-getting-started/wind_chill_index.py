@@ -1,19 +1,19 @@
 '''
 Exercise: Wind Chill Index
 
-This script calculates the wind chill index given the air temperature
-and wind speed using the formula:
-Wind Chill Index (WCI): WCI = 13.12 + 0.6215 * T - 11.37 * V^0.16 + 0.3965
-* T * V^0.16
-where T is the air temperature in Celsius and V is the wind speed in km/h.
+This script calculates the Wind Chill Index (WCI) given the air temperature
+and wind speed.
 
-Calculation formula:
-- WCI = 13.12 + 0.6215 * T - 11.37 * V^0.16 + 0.3965 * T * V^0.16
+Formula:
+    WCI = 13.12 + 0.6215 * T - 11.37 * V^0.16 + 0.3965 * T * V^0.16
+where:
+    - T is the air temperature in Celsius.
+    - V is the wind speed in km/h.
 
 Usage:
     Call the function with the air temperature and wind speed.
 
-Tags: arithmetic operations, wind chill, round()
+Tags: arithmetic operations, wind chill, temperature, wind speed, round()
 '''
 
 

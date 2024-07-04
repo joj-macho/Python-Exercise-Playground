@@ -1,9 +1,17 @@
 '''
 Exercise: Simple and Compount Interest
 
-This script calculates the simple and compound interest using the formulae:
-S.I = PRT/100
-C.I = P(1 + R/n)^(nT) - P
+This script calculates the simple and compound interest for a given
+principal amount, interest rate, and time period.
+
+Formulas:
+    Simple Interest (SI): SI = P * R * T / 100
+    Compound Interest (CI): CI = P * (1 + R/n*100)^(n * T) - P
+where:
+    - P is the principal amount.
+    - R is the annual interest rate (in percentage).
+    - T is the time period (in years).
+    - n is the number of times interest is compounded in a year.
 
 Usage:
     Call the functions with the principal amount, interest rate, and time.

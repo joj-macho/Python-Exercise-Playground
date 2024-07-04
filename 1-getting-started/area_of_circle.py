@@ -3,10 +3,17 @@ Exercise: Area of a circle
 
 This script calculates the area and circumference of a circle.
 
-Usage:
-    Call the function with the radius parameter to get the area.
+Formulae:
+    Area = π * r^2
+    Circumference = 2 * π * r
+where:
+    - r is the radius of the circle.
+    - π (pi) is a constant approximately equal to 3.14159.
 
-Tags: math module, area of circle, circumference, radius
+Usage:
+    Call the function with the radius value.
+
+Tags: math module, arithmetic operations, area, circumference, circle
 '''
 
 import math

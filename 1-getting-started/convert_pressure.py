@@ -1,19 +1,19 @@
 '''
 Exercise: Convert Pressure Units
 
-This script demonstrates how to convert pressure from Pascals to other units
-of pressure such as bar, atm, torr, and psi.
+This script converts pressure from Pascals (Pa) to other units of pressure:
+bar, atm, torr, and psi.
 
-Conversions:
-- 1 Pascal (Pa) = 0.00001 bar
-- 1 Pascal (Pa) = 9.86923e-6 atm
-- 1 Pascal (Pa) = 0.00750062 torr
-- 1 Pascal (Pa) = 0.000145038 psi
+Conversion Formulas:
+    1 Pa = 1e-5 bar
+    1 Pa = 9.86923e-6 atm
+    1 Pa = 7.50062e-3 torr
+    1 Pa = 1.45038e-4 psi
 
 Usage:
-    Call the main function and pass the pressure in Pascals.
+    Call the function with the pressure value in Pascals.
 
-Tags: arithmetic operations, pressure conversion, units
+Tags: arithmetic operations, pressure conversion
 '''
 
 

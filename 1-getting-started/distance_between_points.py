@@ -3,8 +3,8 @@ Exercise: Distance Between Two Points
 
 This script calculates the distance between two points in a 2D space.
 
-Distance Formula: 
-- distance = sqrt((x2 - x1)^2 + (y2 - y1)^2)
+Distance Formula:
+    distance = sqrt((x2 - x1)^2 + (y2 - y1)^2)
 
 Usage:
     Call the function with the point coordinates.

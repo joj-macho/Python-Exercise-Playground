@@ -1,13 +1,16 @@
 '''
 Exercise: Converting between Celsius and Fahrenheit
 
-This script provides functions to convert temperatures between Celsius
-and Fahrenheit.
+This script converts temperatures between Celsius and Fahrenheit.
+
+Conversion Formulas:
+    Celsius to Fahrenheit: F = C * 9/5 + 32
+    Fahrenheit to Celsius: C = (F - 32) * 5/9
 
 Usage:
     Call the functions with the temperature value to convert.
 
-Tags: arithmetic operations, temperature conversion, print()
+Tags: arithmetic operations, temperature conversion, Celsius, Fahrenheit
 '''
 
 
@@ -31,7 +34,6 @@ def celsius_to_fahrenheit(celsius):
     Returns:
         float: Temperature in Fahrenheit.
     '''
-    # Formula: (Celsius * 9/5) + 32
     return (celsius * (9 / 5)) + 32
 
 
@@ -45,7 +47,6 @@ def fahrenheit_to_celsius(fahrenheit):
     Returns:
         float: Temperature in Celsius.
     '''
-    # Formula: (Fahrenheit - 32) * 5/9
     return (fahrenheit - 32) * (5 / 9)
 
 

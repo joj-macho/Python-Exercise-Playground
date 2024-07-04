@@ -4,15 +4,15 @@ Exercise: Simple Physics Calculations
 This script performs simple physics calculations such as force, work,
 and energy.
 
-Calculation formulas:
-- Force: F = m * a (where m is mass, a is acceleration)
-- Work: W = F * d (where F is force, d is displacement)
-- Energy: E = m * g * h (where m is mass, g is gravity, h is height)
+Formulas:
+    Force: F = m * a (where m is mass, a is acceleration)
+    Work: W = F * d (where F is force, d is displacement)
+    Kinetic Energy: KE = 0.5 * m * v^2 (where m is mass, v is velocity)
 
 Usage:
-    Call the main function and follow the prompts.
+    Call the function with input values.
 
-Tags: arithmetic opeations, physics, force, work, energy
+Tags: arithmetic operations, physics, force, work, energy
 '''
 
 

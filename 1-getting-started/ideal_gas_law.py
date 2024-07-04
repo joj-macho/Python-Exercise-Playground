@@ -1,19 +1,21 @@
 '''
 Exercise: Ideal Gas Law
 
-This script computes the amount of gas in moles when the user supplies
-the pressure, volume, and temperature.
+This script calculates the amount of gas in moles using the Ideal Gas Law.
 
-Formula Used:
-Ideal Gas Law: PV = nRT
-where P is the pressure in pascals, V is the volume in cubic meters,
-n is the amount of gas in moles, R is the ideal gas constant (8.314 J/(mol·K))
-, and T is the temperature in kelvin.
+Formula:
+    PV = nRT --> n = PV / RT
+where:
+    - P is the pressure of the gas in Pascals
+    - V is the volume of the gas in cubic meters
+    - n is the amount of gas in moles.
+    - R is the ideal gas constant (8.314 J/(mol·K)).
+    - T is the temperature of the gas in Kelvin.
 
 Usage:
     Call the function with the pressure, volume, and temperature.
 
-Tags: arithmetic operations, pressure conversion, volume conversion, moles
+Tags: arithmetic operations, physics, chemistry, ideal gas law
 '''
 
 

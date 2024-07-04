@@ -1,13 +1,17 @@
 '''
 Exercise: Sum of the First n Positive Integers
 
-This script displays the sum of all n integers from 1 to n. Using the formula:
-sum = (n)(n+1)/2
+This script calculates the sum of all n integers from 1 to n.
+
+Formula:
+    Sum = n * (n + 1) / 2
+where:
+    - n is the number of positive integers to sum.
 
 Usage:
     Call the function with a positive integer n.
 
-Tags: arithmetic operations
+Tags: arithmetic operations, sum, positive integers
 '''
 
 

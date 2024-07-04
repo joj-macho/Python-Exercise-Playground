@@ -1,11 +1,15 @@
 '''
-Exercise: Free Fall
+Exercise: Free Fall Velocity
 
 This script determines how quickly an object is travelling when it hits
 the ground after falling from a given height using the formula:
-Velocity (v) in m/s: v = sqrt(2 * g * h)
-where g is the acceleration due to gravity (9.81 m/s²) and h is the height
-in meters.
+
+Formula:
+    v = sqrt(2 * g * h)
+where:
+    - v is the final velocity.
+    - g is the acceleration due to gravity (9.81 m/s^2 on Earth).
+    - h is the height in meters
 
 Usage:
     Call the function with the height value.

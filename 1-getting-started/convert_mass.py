@@ -3,9 +3,9 @@ Exercise: Mass Units Conversion
 
 This script converts mass units between pounds and kilograms.
 
-Conversion formulas:
-- Pounds to Kilograms: kg = lbs * 0.45359237
-- Kilograms to Pounds: lbs = kg / 0.45359237
+Conversion Formulas:
+    Pounds to Kilograms: kg = lbs * 0.45359237
+    Kilograms to Pounds: lbs = kg / 0.45359237
 
 Usage:
     Call the functions with the mass value.

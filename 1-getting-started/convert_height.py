@@ -3,9 +3,9 @@ Exercise: Height Units Conversion
 
 This script converts height units between feet and meters.
 
-Conversion formulas:
-- Feet to Meters: meters = feet * 0.3048
-- Meters to Feet: feet = meters / 0.3048
+Conversion Formulas:
+    Feet to Meters: meters = feet * 0.3048
+    Meters to Feet: feet = meters / 0.3048
 
 Usage:
     Call the functions with the height value.

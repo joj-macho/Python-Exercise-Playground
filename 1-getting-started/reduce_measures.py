@@ -3,10 +3,10 @@ Exercise: Reduce Measures
 
 This script expresses imperial volume using the largest units possible.
 
-Conversion references:
-- 1 pint = 16 fluid ounces
-- 1 quart = 2 pints
-- 1 gallon = 4 quarts
+Conversion Formula:
+    1 pint = 16 fluid ounces
+    1 quart = 2 pints
+    1 gallon = 4 quarts
 
 Usage:
     Call the function with the volume in fluid ounces.

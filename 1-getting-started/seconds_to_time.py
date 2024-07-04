@@ -1,12 +1,13 @@
 '''
 Exercise: Converting Seconds to Days, Hours, Minutes, Seconds
 
-This script converts seconds to days, hours, minutes, and seconds.
+This script converts a given number of seconds into days, hours, minutes,
+and remaining seconds.
 
 Usage:
-    Call the function with the total seconds to convert.
+    Call the function with the number of seconds.
 
-Tags: time conversion, arithmetic operations
+Tags: arithmetic operations, time conversion
 '''
 
 

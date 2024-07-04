@@ -1,12 +1,15 @@
 '''
 Exercise: Determining if a Number is Even or Odd
 
-This script determines if a given number is even or odd.
+This script determines whether a given number is even or odd.
+
+An even number is an integer that is exactly divisible by 2.
+An odd number is an integer that is not exactly divisible by 2.
 
 Usage:
-    Call the function with the number to check.
+    Call the function with the number value.
 
-Tags: modulo operations, comparison operations, Boolean value
+Tags: arithmetic operations, even, odd, modulo
 '''
 
 
