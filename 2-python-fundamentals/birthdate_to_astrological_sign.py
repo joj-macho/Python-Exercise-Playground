@@ -1,0 +1,63 @@
+'''
+Exercise: Birthdate to Astrological Sign
+
+This script determines the astrological sign based on a birthdate.
+
+The astrological sign is determined by the date of birth according
+to Western astrology. Each sign corresponds to a range of dates.
+
+Usage:
+    Call the function with the day and month of birth.
+
+Tags: astrology, birthdate, decision making
+'''
+
+
+def main():
+    '''Determines the astrological sign.'''
+    month, day = 3, 16
+    print(f'Birthdate: {month}/{day} corresponds to '
+          f'{get_astrological_sign(month, day)}.')
+
+
+def get_astrological_sign(month, day):
+    '''
+    Determines the astrological sign based on the birthdate.
+
+    Parameters:
+        month (int): Month of birth (1-12).
+        day (int): Day of birth (1-31).
+
+    Returns:
+        str: Astrological sign.
+    '''
+    if (month == 3 and day >= 21) or (month == 4 and day <= 19):
+        return 'Aries'
+    elif (month == 4 and day >= 20) or (month == 5 and day <= 20):
+        return 'Taurus'
+    elif (month == 5 and day >= 21) or (month == 6 and day <= 20):
+        return 'Gemini'
+    elif (month == 6 and day >= 21) or (month == 7 and day <= 22):
+        return 'Cancer'
+    elif (month == 7 and day >= 23) or (month == 8 and day <= 22):
+        return 'Leo'
+    elif (month == 8 and day >= 23) or (month == 9 and day <= 22):
+        return 'Virgo'
+    elif (month == 9 and day >= 23) or (month == 10 and day <= 22):
+        return 'Libra'
+    elif (month == 10 and day >= 23) or (month == 11 and day <= 21):
+        return 'Scorpio'
+    elif (month == 11 and day >= 22) or (month == 12 and day <= 21):
+        return 'Sagittarius'
+    elif (month == 12 and day >= 22) or (month == 1 and day <= 19):
+        return 'Capricorn'
+    elif (month == 1 and day >= 20) or (month == 2 and day <= 18):
+        return 'Aquarius'
+    elif (month == 2 and day >= 19) or (month == 3 and day <= 20):
+        return 'Pisces'
+    else:
+        return 'Invalid date'
+
+
+if __name__ == '__main__':
+    main()
