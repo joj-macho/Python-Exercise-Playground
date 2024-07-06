@@ -7,7 +7,7 @@ based on their age.
 Usage:
     Call the function with age value.
 
-Tags: age, classification, if-elif-else
+Tags: if-elif-else, age classification
 '''
 
 
