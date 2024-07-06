@@ -6,7 +6,7 @@ This script demonstrates how to use if statements to make decisions.
 Usage:
     Call the main function to see various examples of if statements in action.
 
-Tags: if statements, decision making, control flow
+Tags: if-elif-else, decision making
 '''
 
 
