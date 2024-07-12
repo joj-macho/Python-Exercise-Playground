@@ -42,7 +42,12 @@ For a comprehensive tutorial on Python, check out my [Python Programming 101](ht
 - [Final Price with Discount](final_price_with_discount.py): Calculate the final price of an item after applying a discount.
 - [Fraction Calculator](fraction_calculator.py): Perform basic arithmetic operations on fractions using the `fractions` module.
 - [Free Fall](free_fall_velocity.py): Calculate the final velocity of an object in free fall.
+- [Electric Field Calculation](electric_field_calculation.py): Compute the electric field produced by a point charge using Coulomb's law.
+- [Gravitational Force Calculation](gravitational_force_calculation.py): Determine the gravitational force between two masses using Newton's law of gravitation.
 - [Ideal Gas Law](ideal_gas_law.py): Calculate the amount of gas in moles using the ideal gas law.
+- [Concentration Calculation](concentration_calculation.py): Calculate the concentration of a solution given the amount of solute and the volume of the solution.
+- [Molar Mass Calculation](molar_mass.py): Calculate the molar mass of a compound based on its atomic composition.
+- [pH Calculation](ph_calculation.py): Determine the pH level of a solution given its hydrogen ion concentration.
 - [Magic Dates](magic_dates.py): Identify dates where the day multiplied by the month equals the year.
 - [Projectile Motion Calculations](projectile_motion.py): Calculate the range and maximum height of a projectile.
 - [Reduce Measures](reduce_measures.py): Express imperial volume using the largest units possible.
