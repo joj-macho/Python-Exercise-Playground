@@ -20,7 +20,7 @@ Tags: if-elif-else, physics, electromagnetic spectrum
 
 
 def main():
-    '''Classify electromagnetic radiation.'''
+    '''Classify EM radiation.'''
     wavelength = 1e-6
     print(f'Electromagnetic radiation of {wavelength} meters '
           f'is {classify_em_radiation(wavelength)}.')
