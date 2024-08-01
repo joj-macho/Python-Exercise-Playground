@@ -23,7 +23,7 @@ def main():
     '''Classify electromagnetic radiation.'''
     wavelength = 1e-6
     print(f'Electromagnetic radiation of {wavelength} meters '
-          f'is {classify_em_radiation(wavelength)}')
+          f'is {classify_em_radiation(wavelength)}.')
 
 
 def classify_em_radiation(wavelength):
