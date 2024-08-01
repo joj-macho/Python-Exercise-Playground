@@ -3,6 +3,11 @@ Exercise: 99 Bottles of Beer Lyrics
 
 This script displays the lyrics of the "99 Bottles of Beer" song.
 
+- print_lyrics_1(): Uses a straightforward loop with if-else for singular and
+plural handling.
+- print_lyrics_2(): Uses a ternary operator within the formatted string for
+concise singular and plural handling.
+
 Usage:
     Call the function to display the lyrics.
 
